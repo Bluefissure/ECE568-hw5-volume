@@ -52,10 +52,10 @@ class VolumeForm extends React.Component {
         let units = this.state.units === "English"? "(ft)" :"(m)";
         let results = this.state.results;
         let volume = ((shape === "Sphere")
-            ? 4 / 3 * Math.PI * Math.pow(this.state.radius, 3)
+            ? 4 / 3 * Math.PI * Math.pow(radius, 3)
             : (shape === "Cone")
-                ? 1 / 3 * Math.PI * Math.pow(this.state.radius, 2) * this.state.height
-                : Math.PI * Math.pow(this.state.radius, 2) * this.state.height);
+                ? 1 / 3 * Math.PI * Math.pow(radius, 2) * height
+                : Math.PI * Math.pow(radius, 2) * height);
         volume = volume.toFixed(2);
         let result = [
             shape,
