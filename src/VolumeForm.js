@@ -33,11 +33,11 @@ class VolumeForm extends React.Component {
     }
     
     handleRadiusChange(event) {
-        this.setState({radius: parseFloat(event.target.value)});
+        this.setState({radius: (event.target.value)});
     }
     
     handleHeightChange(event) {
-        this.setState({height: parseFloat(event.target.value)});
+        this.setState({height: (event.target.value)});
     }
   
     handleSubmit(event) {
@@ -47,8 +47,8 @@ class VolumeForm extends React.Component {
             alert("You haven't select the shape!");
             return;
         }
-        let radius = this.state.radius;
-        let height = this.state.height;
+        let radius = parseFloat(this.state.radius);
+        let height = parseFloat(this.state.height);
         let units = this.state.units === "English"? "(ft)" :"(m)";
         let results = this.state.results;
         let volume = ((shape === "Sphere")
