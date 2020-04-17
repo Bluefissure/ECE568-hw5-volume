@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ECE568-hw5-volume/static/css/main.d1b05096.chunk.css",
+    "main.js": "/ECE568-hw5-volume/static/js/main.6199571e.chunk.js",
+    "main.js.map": "/ECE568-hw5-volume/static/js/main.6199571e.chunk.js.map",
+    "runtime-main.js": "/ECE568-hw5-volume/static/js/runtime-main.84ff8288.js",
+    "runtime-main.js.map": "/ECE568-hw5-volume/static/js/runtime-main.84ff8288.js.map",
+    "static/js/2.0ea6783e.chunk.js": "/ECE568-hw5-volume/static/js/2.0ea6783e.chunk.js",
+    "static/js/2.0ea6783e.chunk.js.map": "/ECE568-hw5-volume/static/js/2.0ea6783e.chunk.js.map",
+    "index.html": "/ECE568-hw5-volume/index.html",
+    "precache-manifest.0f305482bd8dddf5077c95ae954b386c.js": "/ECE568-hw5-volume/precache-manifest.0f305482bd8dddf5077c95ae954b386c.js",
+    "service-worker.js": "/ECE568-hw5-volume/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/ECE568-hw5-volume/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.0ea6783e.chunk.js.LICENSE.txt": "/ECE568-hw5-volume/static/js/2.0ea6783e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84ff8288.js",
+    "static/js/2.0ea6783e.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.6199571e.chunk.js"
+  ]
+}
