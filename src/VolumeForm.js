@@ -44,7 +44,7 @@ class VolumeForm extends React.Component {
         event.preventDefault();
         let shape = this.state.shape;
         if (shape === '') {
-            alert("You haven't select the shape!");
+            alert("You haven't selected the shape!");
             return;
         }
         let radius = parseFloat(this.state.radius);
